@@ -4,8 +4,8 @@ class Main {
     try {
 
       // code that generate exception
-      int divideByZero = 5 / 0;
-      System.out.println("Rest of code in try block");
+      int divideByZero = 70 / 0;
+      System.out.println("Rest code in try block");
     }
     
     catch (ArithmeticException e) {
