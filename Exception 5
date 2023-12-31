@@ -2,7 +2,7 @@ class Main {
   public static void main(String[] args) {
     try {
       // code that generates exception
-      int divideByZero = 5 / 0;
+      int divideByZero = 70 / 0;
     }
 
     catch (ArithmeticException e) {
@@ -10,7 +10,7 @@ class Main {
     }
     
     finally {
-      System.out.println("This is the finally block");
+      System.out.println("This is the final block");
     }
   }
 }
